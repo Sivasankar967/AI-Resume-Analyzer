@@ -157,9 +157,13 @@ The app will be available at `http://localhost:5173`.
 
 ### Home Page
 Premium dark-themed UI with glassmorphism cards, drag-and-drop upload, and job description input.
+<img width="1919" height="906" alt="image" src="https://github.com/user-attachments/assets/81715967-a78b-4024-ae03-806c5bb6f862" />
+
 
 ### Analysis Results
 Animated score ring, color-coded skill tags, improvement cards, and actionable pro tips.
+<img width="1763" height="3425" alt="image" src="https://github.com/user-attachments/assets/f94e1a73-8ab6-424d-a63c-2b2aafc7581a" />
+
 
 ---
 
