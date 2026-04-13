@@ -110,6 +110,25 @@ The app will be available at `http://localhost:5173`.
 
 ---
 
+## ☁️ Deployment (Vercel)
+
+This project is configured for easy deployment to **Vercel** as a single monorepo.
+
+### 1. Project Setup
+- Root Directory: `ai-resume-analyzer`
+- Framework Preset: `Vite`
+
+### 2. Environment Variables
+Add the following in the Vercel Dashboard:
+- `GEMINI_API_KEY`: Your Google Gemini API key.
+
+### 3. How it works
+- The **Frontend** (React/Vite) is serves as a static site.
+- The **Backend** (FastAPI) is automatically deployed as a **Vercel Serverless Function** located in the `api/` directory.
+- All requests to `/api/*` are routed to the FastAPI backend via `vercel.json`.
+
+---
+
 ## 🔌 API Endpoints
 
 | Method | Endpoint | Description |
