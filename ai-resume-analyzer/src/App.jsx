@@ -4,7 +4,7 @@ import FileUpload from "./Components/FileUpload";
 import ResultsDashboard from "./Components/ResultsDashboard";
 import "./index.css";
 
-const API_URL = import.meta.env.PROD ? "/api" : (import.meta.env.VITE_API_URL || "http://localhost:8000");
+const API_URL = import.meta.env.PROD ? "/api" : (import.meta.env.VITE_API_URL ? `${import.meta.env.VITE_API_URL}/api` : "http://localhost:8000/api");
 
 export default function App() {
   const [file, setFile] = useState(null);

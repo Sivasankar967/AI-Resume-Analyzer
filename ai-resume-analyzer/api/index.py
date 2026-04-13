@@ -81,12 +81,12 @@ JOB DESCRIPTION:
 """
 
 
-@app.get("/")
+@app.get("/api")
 async def root():
     return {"status": "ok", "message": "Resume Analyzer API is running"}
 
 
-@app.post("/analyze")
+@app.post("/api/analyze")
 async def analyze_resume(
     resume: UploadFile = File(...),
     job_description: str = Form(...),
